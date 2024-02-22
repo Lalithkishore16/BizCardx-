@@ -22,11 +22,11 @@ mycursor.execute('Use bizcard')
 
 # SETTING PAGE CONFIGURATIONS
 icon = Image.open("C:\\Users\\LalithKishore 16\\Downloads\\business_card_home.png")
-st.set_page_config(page_title="BizCardX: Extracting Business Card Data with OCR | By ARUNKUMAR BAIRAVAN",
+st.set_page_config(page_title="BizCardX: Extracting Business Card Data with OCR | By Lalithkishore",
                    page_icon=icon,
                    layout="wide",
                    initial_sidebar_state="expanded",
-                   menu_items={'About': """# This OCR app is created by *ARUNKUMAR BAIRAVAN*!"""})
+                   menu_items={'About': """# This OCR app is created by *Lalithkishore*!"""})
 st.markdown("<h1 style='text-align: center; color: Green;'>BizCardX: Extracting Business Card Data with OCR</h1>",
             unsafe_allow_html=True)
 
